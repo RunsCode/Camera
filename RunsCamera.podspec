@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RunsCamera"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A custom camera, the core function a little click to take pictures, long press the video."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = 'Camera/*{h,m}'
-  s.source_files  = 'Camera/Classes/{Protocol, Util, VC, View}/*.{h,m}'
+  # s.source_files  = 'Camera/Classes/{Protocol, Util, VC, View}/*.{h,m}'
   # s.subspec 'Classes' do |runsCamera|
   #   runsCamera.source_files = 'Camera/Classes/RunsCameraKit.h'
   # end 
@@ -101,21 +101,21 @@ Pod::Spec.new do |s|
     # sss.source_files = 'Camera/RunsCamera/Callback/*.{h,m}'
   # end
 
-  # s.subspec 'Protocol' do |protocol|
-  #   protocol.source_files = 'Camera/RunsCamera/Protocol/*.h'
-  # end
+  s.subspec 'Protocol' do |protocol|
+    protocol.source_files = 'Camera/Classes/Protocol/*.h'
+  end
 
-  # s.subspec 'Util' do |util|
-  #   util.source_files = 'Camera/RunsCamera/Util/*.{h,m}'
-  # end
+  s.subspec 'Util' do |util|
+    util.source_files = 'Camera/Classes/Util/*.{h,m}'
+  end
 
-  # s.subspec 'VC' do |vc|
-  #   vc.source_files = 'Camera/RunsCamera/VC/*.{h,m}'
-  # end
+  s.subspec 'VC' do |vc|
+    vc.source_files = 'Camera/Classes/VC/*.{h,m}'
+  end
 
-  # s.subspec 'View' do |view|
-  #   view.source_files = 'Camera/RunsCamera/View/*.{h,m}'
-  # end
+  s.subspec 'View' do |view|
+    view.source_files = 'Camera/Classes/View/*.{h,m}'
+  end
 
 
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RunsCamera"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A custom camera, the core function a little click to take pictures, long press the video."
 
   # This description is used to generate tags and improve search results.
@@ -92,10 +92,10 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = 'Camera/*{h,m}'
-  s.source_files  = 'Camera/RunsCamera/{Protocol, Util, VC, View}/*.{h,m}'
-  s.subspec 'RunsCamera' do |runsCamera|
-    runsCamera.source_files = 'Camera/RunsCamera/RunsCameraKit.h'
-  end 
+  s.source_files  = 'Camera/Classes/{Protocol, Util, VC, View}/*.{h,m}'
+  # s.subspec 'Classes' do |runsCamera|
+  #   runsCamera.source_files = 'Camera/Classes/RunsCameraKit.h'
+  # end 
 
   # s.subspec 'Callback' do |sss|
     # sss.source_files = 'Camera/RunsCamera/Callback/*.{h,m}'
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Camera/RunsCamera/camera.xcassets"
+  s.resources = "Camera/Classes/camera.xcassets"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

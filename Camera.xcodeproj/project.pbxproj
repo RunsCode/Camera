@@ -45,7 +45,6 @@
 		21F997C71EF9017700A8D951 /* RunsCameraPreviewViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewViewProtocol.h; sourceTree = "<group>"; };
 		21F997C81EF9017700A8D951 /* RunsCameraViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraViewDelegate.h; sourceTree = "<group>"; };
 		21F997C91EF9017700A8D951 /* RunsCircleButtonViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCircleButtonViewDelegate.h; sourceTree = "<group>"; };
-		21F997CA1EF9017700A8D951 /* RunsCameraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraKit.h; sourceTree = "<group>"; };
 		21F997CC1EF9017700A8D951 /* AVCaptureDevice+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureDevice+Configure.h"; sourceTree = "<group>"; };
 		21F997CD1EF9017700A8D951 /* AVCaptureDevice+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+Configure.m"; sourceTree = "<group>"; };
 		21F997CE1EF9017800A8D951 /* AVCaptureSession+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureSession+Configure.h"; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		21F997E31EF9017800A8D951 /* RunsCircleButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCircleButtonView.m; sourceTree = "<group>"; };
 		21F997E41EF9017800A8D951 /* RunsExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsExpandButton.h; sourceTree = "<group>"; };
 		21F997E51EF9017800A8D951 /* RunsExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsExpandButton.m; sourceTree = "<group>"; };
+		21F997F31EF9695200A8D951 /* RunsCameraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,12 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				21F997C21EF9017700A8D951 /* Callback */,
-				21F997C31EF9017700A8D951 /* camera.xcassets */,
 				21F997C41EF9017700A8D951 /* Protocol */,
-				21F997CA1EF9017700A8D951 /* RunsCameraKit.h */,
 				21F997CB1EF9017700A8D951 /* Util */,
 				21F997D81EF9017800A8D951 /* VC */,
 				21F997DD1EF9017800A8D951 /* View */,
+				21F997C31EF9017700A8D951 /* camera.xcassets */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -160,6 +159,7 @@
 		21F997CB1EF9017700A8D951 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				21F997F31EF9695200A8D951 /* RunsCameraKit.h */,
 				21F997CC1EF9017700A8D951 /* AVCaptureDevice+Configure.h */,
 				21F997CD1EF9017700A8D951 /* AVCaptureDevice+Configure.m */,
 				21F997CE1EF9017800A8D951 /* AVCaptureSession+Configure.h */,

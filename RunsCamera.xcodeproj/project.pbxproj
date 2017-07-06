@@ -12,21 +12,21 @@
 		211DD2831F0E22A1008089B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211DD2551F0E22A0008089B2 /* LaunchScreen.storyboard */; };
 		211DD2841F0E22A1008089B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211DD2571F0E22A0008089B2 /* Main.storyboard */; };
 		211DD2851F0E22A1008089B2 /* camera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211DD25A1F0E22A0008089B2 /* camera.xcassets */; };
-		211DD2861F0E22A1008089B2 /* AVCaptureDevice+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2631F0E22A0008089B2 /* AVCaptureDevice+Configure.m */; };
-		211DD2871F0E22A1008089B2 /* AVCaptureSession+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2651F0E22A0008089B2 /* AVCaptureSession+Configure.m */; };
-		211DD2881F0E22A1008089B2 /* RunsCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2681F0E22A0008089B2 /* RunsCameraManager.m */; };
-		211DD2891F0E22A1008089B2 /* UIImage+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD26A1F0E22A0008089B2 /* UIImage+Configure.m */; };
-		211DD28A1F0E22A1008089B2 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD26C1F0E22A0008089B2 /* UIView+Toast.m */; };
-		211DD28B1F0E22A1008089B2 /* ZFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD26E1F0E22A0008089B2 /* ZFProgressView.m */; };
-		211DD28C1F0E22A1008089B2 /* RunsCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2711F0E22A0008089B2 /* RunsCameraViewController.m */; };
-		211DD28D1F0E22A1008089B2 /* RunsPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2731F0E22A0008089B2 /* RunsPreviewViewController.m */; };
-		211DD28E1F0E22A1008089B2 /* RunsCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2761F0E22A0008089B2 /* RunsCameraPreviewView.m */; };
-		211DD28F1F0E22A1008089B2 /* RunsCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2781F0E22A0008089B2 /* RunsCameraView.m */; };
-		211DD2901F0E22A1008089B2 /* RunsCircleButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD27A1F0E22A0008089B2 /* RunsCircleButtonView.m */; };
-		211DD2911F0E22A1008089B2 /* RunsExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD27C1F0E22A0008089B2 /* RunsExpandButton.m */; };
 		211DD2921F0E22A1008089B2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 211DD27D1F0E22A1008089B2 /* Info.plist */; };
 		211DD2931F0E22A1008089B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD27E1F0E22A1008089B2 /* main.m */; };
 		211DD2941F0E22A1008089B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2801F0E22A1008089B2 /* ViewController.m */; };
+		211DD2B31F0E3967008089B2 /* AVCaptureDevice+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2961F0E3967008089B2 /* AVCaptureDevice+Configure.m */; };
+		211DD2B41F0E3967008089B2 /* AVCaptureSession+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2981F0E3967008089B2 /* AVCaptureSession+Configure.m */; };
+		211DD2B51F0E3967008089B2 /* RunsCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD29C1F0E3967008089B2 /* RunsCameraManager.m */; };
+		211DD2B61F0E3967008089B2 /* RunsCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD29E1F0E3967008089B2 /* RunsCameraPreviewView.m */; };
+		211DD2B71F0E3967008089B2 /* RunsCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2A21F0E3967008089B2 /* RunsCameraView.m */; };
+		211DD2B81F0E3967008089B2 /* RunsCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2A41F0E3967008089B2 /* RunsCameraViewController.m */; };
+		211DD2B91F0E3967008089B2 /* RunsCircleButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2A71F0E3967008089B2 /* RunsCircleButtonView.m */; };
+		211DD2BA1F0E3967008089B2 /* RunsExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2AA1F0E3967008089B2 /* RunsExpandButton.m */; };
+		211DD2BB1F0E3967008089B2 /* RunsPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2AC1F0E3967008089B2 /* RunsPreviewViewController.m */; };
+		211DD2BC1F0E3967008089B2 /* UIImage+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2AE1F0E3967008089B2 /* UIImage+Configure.m */; };
+		211DD2BD1F0E3967008089B2 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2B01F0E3967008089B2 /* UIView+Toast.m */; };
+		211DD2BE1F0E3967008089B2 /* ZFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DD2B21F0E3967008089B2 /* ZFProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,40 +36,40 @@
 		211DD2561F0E22A0008089B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		211DD2581F0E22A0008089B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		211DD25A1F0E22A0008089B2 /* camera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = camera.xcassets; sourceTree = "<group>"; };
-		211DD25C1F0E22A0008089B2 /* RunsCameraControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraControllerDelegate.h; sourceTree = "<group>"; };
-		211DD25D1F0E22A0008089B2 /* RunsCameraPreviewViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewViewDelegate.h; sourceTree = "<group>"; };
-		211DD25E1F0E22A0008089B2 /* RunsCameraPreviewViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewViewProtocol.h; sourceTree = "<group>"; };
-		211DD25F1F0E22A0008089B2 /* RunsCameraViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraViewDelegate.h; sourceTree = "<group>"; };
-		211DD2601F0E22A0008089B2 /* RunsCircleButtonViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCircleButtonViewDelegate.h; sourceTree = "<group>"; };
-		211DD2621F0E22A0008089B2 /* AVCaptureDevice+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureDevice+Configure.h"; sourceTree = "<group>"; };
-		211DD2631F0E22A0008089B2 /* AVCaptureDevice+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+Configure.m"; sourceTree = "<group>"; };
-		211DD2641F0E22A0008089B2 /* AVCaptureSession+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureSession+Configure.h"; sourceTree = "<group>"; };
-		211DD2651F0E22A0008089B2 /* AVCaptureSession+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureSession+Configure.m"; sourceTree = "<group>"; };
-		211DD2661F0E22A0008089B2 /* RunsCameraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraKit.h; sourceTree = "<group>"; };
-		211DD2671F0E22A0008089B2 /* RunsCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraManager.h; sourceTree = "<group>"; };
-		211DD2681F0E22A0008089B2 /* RunsCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraManager.m; sourceTree = "<group>"; };
-		211DD2691F0E22A0008089B2 /* UIImage+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Configure.h"; sourceTree = "<group>"; };
-		211DD26A1F0E22A0008089B2 /* UIImage+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Configure.m"; sourceTree = "<group>"; };
-		211DD26B1F0E22A0008089B2 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
-		211DD26C1F0E22A0008089B2 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
-		211DD26D1F0E22A0008089B2 /* ZFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFProgressView.h; sourceTree = "<group>"; };
-		211DD26E1F0E22A0008089B2 /* ZFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFProgressView.m; sourceTree = "<group>"; };
-		211DD2701F0E22A0008089B2 /* RunsCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraViewController.h; sourceTree = "<group>"; };
-		211DD2711F0E22A0008089B2 /* RunsCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraViewController.m; sourceTree = "<group>"; };
-		211DD2721F0E22A0008089B2 /* RunsPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsPreviewViewController.h; sourceTree = "<group>"; };
-		211DD2731F0E22A0008089B2 /* RunsPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsPreviewViewController.m; sourceTree = "<group>"; };
-		211DD2751F0E22A0008089B2 /* RunsCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewView.h; sourceTree = "<group>"; };
-		211DD2761F0E22A0008089B2 /* RunsCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraPreviewView.m; sourceTree = "<group>"; };
-		211DD2771F0E22A0008089B2 /* RunsCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraView.h; sourceTree = "<group>"; };
-		211DD2781F0E22A0008089B2 /* RunsCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraView.m; sourceTree = "<group>"; };
-		211DD2791F0E22A0008089B2 /* RunsCircleButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCircleButtonView.h; sourceTree = "<group>"; };
-		211DD27A1F0E22A0008089B2 /* RunsCircleButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCircleButtonView.m; sourceTree = "<group>"; };
-		211DD27B1F0E22A0008089B2 /* RunsExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsExpandButton.h; sourceTree = "<group>"; };
-		211DD27C1F0E22A0008089B2 /* RunsExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsExpandButton.m; sourceTree = "<group>"; };
 		211DD27D1F0E22A1008089B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211DD27E1F0E22A1008089B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		211DD27F1F0E22A1008089B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		211DD2801F0E22A1008089B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		211DD2951F0E3967008089B2 /* AVCaptureDevice+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureDevice+Configure.h"; sourceTree = "<group>"; };
+		211DD2961F0E3967008089B2 /* AVCaptureDevice+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+Configure.m"; sourceTree = "<group>"; };
+		211DD2971F0E3967008089B2 /* AVCaptureSession+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureSession+Configure.h"; sourceTree = "<group>"; };
+		211DD2981F0E3967008089B2 /* AVCaptureSession+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureSession+Configure.m"; sourceTree = "<group>"; };
+		211DD2991F0E3967008089B2 /* RunsCameraControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraControllerDelegate.h; sourceTree = "<group>"; };
+		211DD29A1F0E3967008089B2 /* RunsCameraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraKit.h; sourceTree = "<group>"; };
+		211DD29B1F0E3967008089B2 /* RunsCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraManager.h; sourceTree = "<group>"; };
+		211DD29C1F0E3967008089B2 /* RunsCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraManager.m; sourceTree = "<group>"; };
+		211DD29D1F0E3967008089B2 /* RunsCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewView.h; sourceTree = "<group>"; };
+		211DD29E1F0E3967008089B2 /* RunsCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraPreviewView.m; sourceTree = "<group>"; };
+		211DD29F1F0E3967008089B2 /* RunsCameraPreviewViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewViewDelegate.h; sourceTree = "<group>"; };
+		211DD2A01F0E3967008089B2 /* RunsCameraPreviewViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraPreviewViewProtocol.h; sourceTree = "<group>"; };
+		211DD2A11F0E3967008089B2 /* RunsCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraView.h; sourceTree = "<group>"; };
+		211DD2A21F0E3967008089B2 /* RunsCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraView.m; sourceTree = "<group>"; };
+		211DD2A31F0E3967008089B2 /* RunsCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraViewController.h; sourceTree = "<group>"; };
+		211DD2A41F0E3967008089B2 /* RunsCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCameraViewController.m; sourceTree = "<group>"; };
+		211DD2A51F0E3967008089B2 /* RunsCameraViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCameraViewDelegate.h; sourceTree = "<group>"; };
+		211DD2A61F0E3967008089B2 /* RunsCircleButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCircleButtonView.h; sourceTree = "<group>"; };
+		211DD2A71F0E3967008089B2 /* RunsCircleButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsCircleButtonView.m; sourceTree = "<group>"; };
+		211DD2A81F0E3967008089B2 /* RunsCircleButtonViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsCircleButtonViewDelegate.h; sourceTree = "<group>"; };
+		211DD2A91F0E3967008089B2 /* RunsExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsExpandButton.h; sourceTree = "<group>"; };
+		211DD2AA1F0E3967008089B2 /* RunsExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsExpandButton.m; sourceTree = "<group>"; };
+		211DD2AB1F0E3967008089B2 /* RunsPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunsPreviewViewController.h; sourceTree = "<group>"; };
+		211DD2AC1F0E3967008089B2 /* RunsPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunsPreviewViewController.m; sourceTree = "<group>"; };
+		211DD2AD1F0E3967008089B2 /* UIImage+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Configure.h"; sourceTree = "<group>"; };
+		211DD2AE1F0E3967008089B2 /* UIImage+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Configure.m"; sourceTree = "<group>"; };
+		211DD2AF1F0E3967008089B2 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		211DD2B01F0E3967008089B2 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		211DD2B11F0E3967008089B2 /* ZFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFProgressView.h; sourceTree = "<group>"; };
+		211DD2B21F0E3967008089B2 /* ZFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFProgressView.m; sourceTree = "<group>"; };
 		21B2ADF11EF4189700CD80A4 /* RunsCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunsCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,71 +105,39 @@
 		211DD2591F0E22A0008089B2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				211DD25B1F0E22A0008089B2 /* Protocol */,
-				211DD2611F0E22A0008089B2 /* Util */,
-				211DD26F1F0E22A0008089B2 /* VC */,
-				211DD2741F0E22A0008089B2 /* View */,
+				211DD2951F0E3967008089B2 /* AVCaptureDevice+Configure.h */,
+				211DD2961F0E3967008089B2 /* AVCaptureDevice+Configure.m */,
+				211DD2971F0E3967008089B2 /* AVCaptureSession+Configure.h */,
+				211DD2981F0E3967008089B2 /* AVCaptureSession+Configure.m */,
+				211DD2991F0E3967008089B2 /* RunsCameraControllerDelegate.h */,
+				211DD29A1F0E3967008089B2 /* RunsCameraKit.h */,
+				211DD29B1F0E3967008089B2 /* RunsCameraManager.h */,
+				211DD29C1F0E3967008089B2 /* RunsCameraManager.m */,
+				211DD29D1F0E3967008089B2 /* RunsCameraPreviewView.h */,
+				211DD29E1F0E3967008089B2 /* RunsCameraPreviewView.m */,
+				211DD29F1F0E3967008089B2 /* RunsCameraPreviewViewDelegate.h */,
+				211DD2A01F0E3967008089B2 /* RunsCameraPreviewViewProtocol.h */,
+				211DD2A11F0E3967008089B2 /* RunsCameraView.h */,
+				211DD2A21F0E3967008089B2 /* RunsCameraView.m */,
+				211DD2A31F0E3967008089B2 /* RunsCameraViewController.h */,
+				211DD2A41F0E3967008089B2 /* RunsCameraViewController.m */,
+				211DD2A51F0E3967008089B2 /* RunsCameraViewDelegate.h */,
+				211DD2A61F0E3967008089B2 /* RunsCircleButtonView.h */,
+				211DD2A71F0E3967008089B2 /* RunsCircleButtonView.m */,
+				211DD2A81F0E3967008089B2 /* RunsCircleButtonViewDelegate.h */,
+				211DD2A91F0E3967008089B2 /* RunsExpandButton.h */,
+				211DD2AA1F0E3967008089B2 /* RunsExpandButton.m */,
+				211DD2AB1F0E3967008089B2 /* RunsPreviewViewController.h */,
+				211DD2AC1F0E3967008089B2 /* RunsPreviewViewController.m */,
+				211DD2AD1F0E3967008089B2 /* UIImage+Configure.h */,
+				211DD2AE1F0E3967008089B2 /* UIImage+Configure.m */,
+				211DD2AF1F0E3967008089B2 /* UIView+Toast.h */,
+				211DD2B01F0E3967008089B2 /* UIView+Toast.m */,
+				211DD2B11F0E3967008089B2 /* ZFProgressView.h */,
+				211DD2B21F0E3967008089B2 /* ZFProgressView.m */,
 				211DD25A1F0E22A0008089B2 /* camera.xcassets */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		211DD25B1F0E22A0008089B2 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				211DD25C1F0E22A0008089B2 /* RunsCameraControllerDelegate.h */,
-				211DD25D1F0E22A0008089B2 /* RunsCameraPreviewViewDelegate.h */,
-				211DD25E1F0E22A0008089B2 /* RunsCameraPreviewViewProtocol.h */,
-				211DD25F1F0E22A0008089B2 /* RunsCameraViewDelegate.h */,
-				211DD2601F0E22A0008089B2 /* RunsCircleButtonViewDelegate.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		211DD2611F0E22A0008089B2 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				211DD2621F0E22A0008089B2 /* AVCaptureDevice+Configure.h */,
-				211DD2631F0E22A0008089B2 /* AVCaptureDevice+Configure.m */,
-				211DD2641F0E22A0008089B2 /* AVCaptureSession+Configure.h */,
-				211DD2651F0E22A0008089B2 /* AVCaptureSession+Configure.m */,
-				211DD2661F0E22A0008089B2 /* RunsCameraKit.h */,
-				211DD2671F0E22A0008089B2 /* RunsCameraManager.h */,
-				211DD2681F0E22A0008089B2 /* RunsCameraManager.m */,
-				211DD2691F0E22A0008089B2 /* UIImage+Configure.h */,
-				211DD26A1F0E22A0008089B2 /* UIImage+Configure.m */,
-				211DD26B1F0E22A0008089B2 /* UIView+Toast.h */,
-				211DD26C1F0E22A0008089B2 /* UIView+Toast.m */,
-				211DD26D1F0E22A0008089B2 /* ZFProgressView.h */,
-				211DD26E1F0E22A0008089B2 /* ZFProgressView.m */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		211DD26F1F0E22A0008089B2 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				211DD2701F0E22A0008089B2 /* RunsCameraViewController.h */,
-				211DD2711F0E22A0008089B2 /* RunsCameraViewController.m */,
-				211DD2721F0E22A0008089B2 /* RunsPreviewViewController.h */,
-				211DD2731F0E22A0008089B2 /* RunsPreviewViewController.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		211DD2741F0E22A0008089B2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				211DD2751F0E22A0008089B2 /* RunsCameraPreviewView.h */,
-				211DD2761F0E22A0008089B2 /* RunsCameraPreviewView.m */,
-				211DD2771F0E22A0008089B2 /* RunsCameraView.h */,
-				211DD2781F0E22A0008089B2 /* RunsCameraView.m */,
-				211DD2791F0E22A0008089B2 /* RunsCircleButtonView.h */,
-				211DD27A1F0E22A0008089B2 /* RunsCircleButtonView.m */,
-				211DD27B1F0E22A0008089B2 /* RunsExpandButton.h */,
-				211DD27C1F0E22A0008089B2 /* RunsExpandButton.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		21B2ADE81EF4189700CD80A4 = {
@@ -270,21 +238,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211DD2901F0E22A1008089B2 /* RunsCircleButtonView.m in Sources */,
+				211DD2B61F0E3967008089B2 /* RunsCameraPreviewView.m in Sources */,
 				211DD2811F0E22A1008089B2 /* AppDelegate.m in Sources */,
-				211DD2861F0E22A1008089B2 /* AVCaptureDevice+Configure.m in Sources */,
-				211DD2891F0E22A1008089B2 /* UIImage+Configure.m in Sources */,
-				211DD28B1F0E22A1008089B2 /* ZFProgressView.m in Sources */,
-				211DD28C1F0E22A1008089B2 /* RunsCameraViewController.m in Sources */,
-				211DD28A1F0E22A1008089B2 /* UIView+Toast.m in Sources */,
-				211DD28D1F0E22A1008089B2 /* RunsPreviewViewController.m in Sources */,
-				211DD28E1F0E22A1008089B2 /* RunsCameraPreviewView.m in Sources */,
+				211DD2B91F0E3967008089B2 /* RunsCircleButtonView.m in Sources */,
+				211DD2BB1F0E3967008089B2 /* RunsPreviewViewController.m in Sources */,
+				211DD2BD1F0E3967008089B2 /* UIView+Toast.m in Sources */,
 				211DD2941F0E22A1008089B2 /* ViewController.m in Sources */,
+				211DD2B31F0E3967008089B2 /* AVCaptureDevice+Configure.m in Sources */,
 				211DD2931F0E22A1008089B2 /* main.m in Sources */,
-				211DD2871F0E22A1008089B2 /* AVCaptureSession+Configure.m in Sources */,
-				211DD2881F0E22A1008089B2 /* RunsCameraManager.m in Sources */,
-				211DD28F1F0E22A1008089B2 /* RunsCameraView.m in Sources */,
-				211DD2911F0E22A1008089B2 /* RunsExpandButton.m in Sources */,
+				211DD2BC1F0E3967008089B2 /* UIImage+Configure.m in Sources */,
+				211DD2BE1F0E3967008089B2 /* ZFProgressView.m in Sources */,
+				211DD2BA1F0E3967008089B2 /* RunsExpandButton.m in Sources */,
+				211DD2B81F0E3967008089B2 /* RunsCameraViewController.m in Sources */,
+				211DD2B51F0E3967008089B2 /* RunsCameraManager.m in Sources */,
+				211DD2B41F0E3967008089B2 /* AVCaptureSession+Configure.m in Sources */,
+				211DD2B71F0E3967008089B2 /* RunsCameraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

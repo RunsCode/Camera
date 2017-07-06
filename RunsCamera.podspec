@@ -92,7 +92,8 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "RunsCamera", "RunsCamera/Classes/**/*.{h,m}"
-  # s.source_files  = 'Camera/Classes/{Protocol, Util, VC, View}/*.{h,m}'
+  s.source_files  = "Classes", "RunsCamera/Classes/**/*.{h,m}"
+  # s.source_files  = 'RunsCamera/Classes/{Protocol, Util, VC, View}/*.{h,m}'
   # s.subspec 'Classes' do |runsCamera|
   #   runsCamera.source_files = 'Camera/Classes/RunsCameraKit.h'
   # end 
@@ -101,21 +102,21 @@ Pod::Spec.new do |s|
   #   callback.source_files = 'RunsCamera/Classes/Callback/*.{h,m}'
   # end
 
-  s.subspec 'Protocol' do |protocol|
-    protocol.source_files = 'RunsCamera/Classes/Protocol/*.h'
-  end
+  # s.subspec 'Protocol' do |protocol|
+  #   protocol.source_files = 'RunsCamera/Classes/Protocol/*.h'
+  # end
 
-  s.subspec 'Util' do |util|
-    util.source_files = 'RunsCamera/Classes/Util/*.{h,m}'
-  end
+  # s.subspec 'Util' do |util|
+  #   util.source_files = 'RunsCamera/Classes/Util/*.{h,m}'
+  # end
 
-  s.subspec 'View' do |view|
-    view.source_files = 'RunsCamera/Classes/View/*.{h,m}'
-  end
+  # s.subspec 'View' do |view|
+  #   view.source_files = 'RunsCamera/Classes/View/*.{h,m}'
+  # end
 
-  s.subspec 'VC' do |vc|
-    vc.source_files = 'RunsCamera/Classes/VC/*.{h,m}'
-  end
+  # s.subspec 'VC' do |vc|
+  #   vc.source_files = 'RunsCamera/Classes/VC/*.{h,m}'
+  # end
 
 
   # s.exclude_files = "Classes/Exclude"

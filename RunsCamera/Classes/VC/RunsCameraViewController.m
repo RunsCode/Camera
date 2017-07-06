@@ -11,6 +11,10 @@
 #import "RunsCameraViewDelegate.h"
 #import "RunsCameraPreviewViewDelegate.h"
 #import "RunsCameraPreviewViewProtocol.h"
+#import "RunsCameraView.h"
+#import "RunsCameraPreviewView.h"
+#import "RunsCameraManager.h"
+#import <Foundation/Foundation.h>
 
 @interface RunsCameraViewController ()<RunsCameraViewDelegate, RunsCameraPreviewViewDelegate>
 

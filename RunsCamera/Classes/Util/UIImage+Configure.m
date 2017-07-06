@@ -7,7 +7,8 @@
 //
 
 #import "UIImage+Configure.h"
-
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
 #import "RunsCameraKit.h"
 
 @implementation UIImage (Configure)

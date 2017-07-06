@@ -9,7 +9,11 @@
 #import "RunsCameraView.h"
 #import "RunsCameraKit.h"
 #import "RunsCircleButtonViewDelegate.h"
-
+#import "RunsExpandButton.h"
+#import "RunsCameraManager.h"
+#import "RunsCircleButtonView.h"
+#import "AVCaptureSession+Configure.h"
+#import "AVCaptureDevice+Configure.h"
 #define SHADOW_IMAGE_HEIGHT (140)
 
 @interface RunsCameraView ()<RunsCircleButtonViewDelegate>

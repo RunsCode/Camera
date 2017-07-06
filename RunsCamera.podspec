@@ -91,32 +91,31 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = 'Camera/*{h,m}'
+  # s.source_files  = "RunsCamera", "RunsCamera/Classes/**/*.{h,m}"
   # s.source_files  = 'Camera/Classes/{Protocol, Util, VC, View}/*.{h,m}'
   # s.subspec 'Classes' do |runsCamera|
   #   runsCamera.source_files = 'Camera/Classes/RunsCameraKit.h'
   # end 
 
-  # s.subspec 'Callback' do |sss|
-    # sss.source_files = 'Camera/RunsCamera/Callback/*.{h,m}'
+  # s.subspec 'Callback' do |callback|
+  #   callback.source_files = 'RunsCamera/Classes/Callback/*.{h,m}'
   # end
 
   s.subspec 'Protocol' do |protocol|
-    protocol.source_files = 'Camera/Classes/Protocol/*.h'
+    protocol.source_files = 'RunsCamera/Classes/Protocol/*.h'
   end
 
   s.subspec 'Util' do |util|
-    util.source_files = 'Camera/Classes/Util/*.{h,m}'
-  end
-
-  s.subspec 'VC' do |vc|
-    vc.source_files = 'Camera/Classes/VC/*.{h,m}'
+    util.source_files = 'RunsCamera/Classes/Util/*.{h,m}'
   end
 
   s.subspec 'View' do |view|
-    view.source_files = 'Camera/Classes/View/*.{h,m}'
+    view.source_files = 'RunsCamera/Classes/View/*.{h,m}'
   end
 
+  s.subspec 'VC' do |vc|
+    vc.source_files = 'RunsCamera/Classes/VC/*.{h,m}'
+  end
 
 
   # s.exclude_files = "Classes/Exclude"
@@ -133,7 +132,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Camera/Classes/camera.xcassets"
+  s.resources = "RunsCamera/Classes/camera.xcassets"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

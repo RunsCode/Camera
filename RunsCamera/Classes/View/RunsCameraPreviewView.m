@@ -9,8 +9,10 @@
 #import "RunsCameraPreviewView.h"
 #import "RunsCameraPreviewViewProtocol.h"
 #import "RunsCameraKit.h"
-#import "AppDelegate.h"
 #import "UIView+Toast.h"
+#import "UIImage+Configure.h"
+#import "RunsExpandButton.h"
+#import "RunsCameraManager.h"
 
 @interface RunsCameraPreviewView ()<RunsCameraPreviewViewProtocol>
 

@@ -9,9 +9,12 @@
 #import "RunsCameraManager.h"
 #import <objc/runtime.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
+#import "AVCaptureSession+Configure.h"
 #import "RunsCameraKit.h"
-
+#import "AVCaptureDevice+Configure.h"
+#import "UIImage+Configure.h"
 
 static const NSString * RunsDefaultMovieFileOutputKey       = @"RunsDefaultMovieFileOutputKey";
 static const NSString * RunsDefaultStillImageOutputKey      = @"RunsDefaultStillImageOutputKey";

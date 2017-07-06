@@ -70,7 +70,7 @@
 		211DD27E1F0E22A1008089B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		211DD27F1F0E22A1008089B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		211DD2801F0E22A1008089B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		21B2ADF11EF4189700CD80A4 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B2ADF11EF4189700CD80A4 /* RunsCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunsCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +87,17 @@
 		211DD2511F0E22A0008089B2 /* RunsCamera */ = {
 			isa = PBXGroup;
 			children = (
-				21B2ADF41EF4189700CD80A4 /* Supporting Files */,
+				211DD2591F0E22A0008089B2 /* Classes */,
 				211DD2521F0E22A0008089B2 /* AppDelegate.h */,
 				211DD2531F0E22A0008089B2 /* AppDelegate.m */,
 				211DD2541F0E22A0008089B2 /* Assets.xcassets */,
 				211DD2551F0E22A0008089B2 /* LaunchScreen.storyboard */,
 				211DD2571F0E22A0008089B2 /* Main.storyboard */,
-				211DD2591F0E22A0008089B2 /* Classes */,
 				211DD27D1F0E22A1008089B2 /* Info.plist */,
 				211DD27E1F0E22A1008089B2 /* main.m */,
 				211DD27F1F0E22A1008089B2 /* ViewController.h */,
 				211DD2801F0E22A1008089B2 /* ViewController.m */,
+				21B2ADF41EF4189700CD80A4 /* Supporting Files */,
 			);
 			path = RunsCamera;
 			sourceTree = "<group>";
@@ -105,11 +105,11 @@
 		211DD2591F0E22A0008089B2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				211DD25A1F0E22A0008089B2 /* camera.xcassets */,
 				211DD25B1F0E22A0008089B2 /* Protocol */,
 				211DD2611F0E22A0008089B2 /* Util */,
 				211DD26F1F0E22A0008089B2 /* VC */,
 				211DD2741F0E22A0008089B2 /* View */,
+				211DD25A1F0E22A0008089B2 /* camera.xcassets */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 		21B2ADF21EF4189700CD80A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21B2ADF11EF4189700CD80A4 /* Camera.app */,
+				21B2ADF11EF4189700CD80A4 /* RunsCamera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21B2ADF01EF4189700CD80A4 /* Camera */ = {
+		21B2ADF01EF4189700CD80A4 /* RunsCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21B2AE081EF4189700CD80A4 /* Build configuration list for PBXNativeTarget "Camera" */;
+			buildConfigurationList = 21B2AE081EF4189700CD80A4 /* Build configuration list for PBXNativeTarget "RunsCamera" */;
 			buildPhases = (
 				21B2ADED1EF4189700CD80A4 /* Sources */,
 				21B2ADEE1EF4189700CD80A4 /* Frameworks */,
@@ -211,9 +211,9 @@
 			);
 			dependencies = (
 			);
-			name = Camera;
+			name = RunsCamera;
 			productName = Camera;
-			productReference = 21B2ADF11EF4189700CD80A4 /* Camera.app */;
+			productReference = 21B2ADF11EF4189700CD80A4 /* RunsCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21B2ADF01EF4189700CD80A4 /* Camera */,
+				21B2ADF01EF4189700CD80A4 /* RunsCamera */,
 			);
 		};
 /* End PBXProject section */
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21B2AE081EF4189700CD80A4 /* Build configuration list for PBXNativeTarget "Camera" */ = {
+		21B2AE081EF4189700CD80A4 /* Build configuration list for PBXNativeTarget "RunsCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21B2AE091EF4189700CD80A4 /* Debug */,

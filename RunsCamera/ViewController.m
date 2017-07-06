@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "RunsCameraViewController.h"
+//#import "RunsCameraViewController.h"
 
-@interface ViewController ()<RunsCameraControllerDelegate>
+@interface ViewController ()//<RunsCameraControllerDelegate>
 
 @end
 
@@ -28,29 +28,29 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    RunsCameraViewController *cameraViewController = [RunsCameraViewController new];
-    cameraViewController.delegate = self;
-    [self presentViewController:cameraViewController animated:YES completion:nil];
+//    RunsCameraViewController *cameraViewController = [RunsCameraViewController new];
+//    cameraViewController.delegate = self;
+//    [self presentViewController:cameraViewController animated:YES completion:nil];
 }
 
 
 #pragma mark -- RunsCameraControllerDelegate
 
-- (void)cameraViewControllerDidDismissed:(UIViewController *)controller {
-    
-}
-
-- (void)cameraViewControllerDidSelectedAlnbum:(UIViewController *)controller {
-    
-}
-
-- (void)cameraViewController:(UIViewController *)controller captureStillImage:(UIImage *)image {
-    [controller dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)cameraViewController:(UIViewController *)controller captureVideoAsset:(RunsVideoAsset *)asset {
-    [controller dismissViewControllerAnimated:YES completion:nil];
-}
+//- (void)cameraViewControllerDidDismissed:(UIViewController *)controller {
+//    
+//}
+//
+//- (void)cameraViewControllerDidSelectedAlnbum:(UIViewController *)controller {
+//    
+//}
+//
+//- (void)cameraViewController:(UIViewController *)controller captureStillImage:(UIImage *)image {
+//    [controller dismissViewControllerAnimated:YES completion:nil];
+//}
+//
+//- (void)cameraViewController:(UIViewController *)controller captureVideoAsset:(RunsVideoAsset *)asset {
+//    [controller dismissViewControllerAnimated:YES completion:nil];
+//}
 
 
 @end

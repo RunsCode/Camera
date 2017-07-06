@@ -9,6 +9,9 @@
 #import "AVCaptureSession+Configure.h"
 #import <objc/runtime.h>
 #import "RunsCameraKit.h"
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
+#import "AVCaptureDevice+Configure.h"
 
 static const NSString * RunsDefaultDeviceSessionKey = @"RunsDefaultDeviceSessionKey";
 static const NSString * RunsDefaultPreviewLayerKey  = @"RunsDefaultPreviewLayerKey";

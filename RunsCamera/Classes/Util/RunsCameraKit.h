@@ -9,18 +9,18 @@
 #ifndef RunsCameraKit_h
 #define RunsCameraKit_h
 //
-#import "RunsCameraManager.h"
-#import "UIImage+Configure.h"
-#import "AVCaptureDevice+Configure.h"
-#import "AVCaptureSession+Configure.h"
-//
-#import "RunsCircleButtonView.h"
-#import "RunsExpandButton.h"
-#import "RunsCameraView.h"
-#import "RunsCameraPreviewView.h"
-//
-#import "RunsCameraViewController.h"
-#import "RunsPreviewViewController.h"
+//#import "RunsCameraManager.h"
+//#import "UIImage+Configure.h"
+//#import "AVCaptureDevice+Configure.h"
+//#import "AVCaptureSession+Configure.h"
+////
+//#import "RunsCircleButtonView.h"
+//#import "RunsExpandButton.h"
+//#import "RunsCameraView.h"
+//#import "RunsCameraPreviewView.h"
+////
+//#import "RunsCameraViewController.h"
+//#import "RunsPreviewViewController.h"
 
 
 #define RCK_SCREEN_BOUNDS (UIScreen.mainScreen.bounds)

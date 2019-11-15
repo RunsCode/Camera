@@ -6,6 +6,7 @@
 //  Copyright © 2017年 www.dev_wang.com. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "RunsCameraViewController.h"
 #import "RunsCameraKit.h"
 #import "RunsCameraViewDelegate.h"
@@ -14,7 +15,6 @@
 #import "RunsCameraView.h"
 #import "RunsCameraPreviewView.h"
 #import "RunsCameraManager.h"
-#import <Foundation/Foundation.h>
 
 @interface RunsCameraViewController ()<RunsCameraViewDelegate, RunsCameraPreviewViewDelegate>
 

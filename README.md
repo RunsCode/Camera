@@ -1,5 +1,5 @@
 # RunsCamera
-###A custom camera, the core function a little click to take pictures, long press the video
+### A custom camera, the core function a little click to take pictures, long press the video
 
 # From CocoaPods
 
